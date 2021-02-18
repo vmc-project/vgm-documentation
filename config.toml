@@ -1,0 +1,27 @@
+#baseURL = "https://ihrivnac.github.io"
+baseURL = ""
+languageCode = "en-us"
+title = "VGM"
+
+# Change the default theme to be use when building the site with Hugo
+theme = [ "vgm-theme", "hugo-theme-learn" ]
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+# Customization Parameters
+[params]
+  # Change default color scheme with a variant one. Can be "red", "blue", "green".
+  #themeVariant = "blue"
+  #themeVariant = "green"
+  themeVariant = "vmc"
+
+# This tells Hugo where to create our HTML files from the content in our 
+# publishDir = "ihrivnac.github.io" 
+
+[[menu.shortcuts]] 
+name = "<i class='fab fa-github'></i> vgm project on Github"
+identifier = "ds"
+url = "https://github.com/vmc-project/vgm"
+weight = 10

@@ -19,4 +19,4 @@ VGM was implemented in the context of [Geant4 VMC](https://vmc-project.github.io
 
 <i class="far fa-envelope"></i> Contact: <a href="mailto: ivana.hrivnacova@ijclab.in2p3.fr"> ivana.hrivnacova@ijclab.in2p3.fr</a>
 
-*Last update: 12/01/2021*
+*Last update: 19/02/2021*

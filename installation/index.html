@@ -1,58 +1,297 @@
-<!doctype html><html lang=en class="js csstransforms3d"><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=generator content="Hugo 0.80.0"><meta name=description content><link rel=icon href=/vgm-documentation/images/favicon.png type=image/png><title>Installation :: VGM</title><link href=/vgm-documentation/css/nucleus.css?1613745211 rel=stylesheet><link href=/vgm-documentation/css/fontawesome-all.min.css?1613745211 rel=stylesheet><link href=/vgm-documentation/css/hybrid.css?1613745211 rel=stylesheet><link href=/vgm-documentation/css/featherlight.min.css?1613745211 rel=stylesheet><link href=/vgm-documentation/css/perfect-scrollbar.min.css?1613745211 rel=stylesheet><link href=/vgm-documentation/css/auto-complete.css?1613745211 rel=stylesheet><link href=/vgm-documentation/css/atom-one-dark-reasonable.css?1613745211 rel=stylesheet><link href=/vgm-documentation/css/theme.css?1613745211 rel=stylesheet><link href=/vgm-documentation/css/hugo-theme.css?1613745211 rel=stylesheet><link href=/vgm-documentation/css/theme-vmc.css?1613745211 rel=stylesheet><script src=/vgm-documentation/js/jquery-3.3.1.min.js?1613745211></script><style>:root #header+#content>#left>#rlblock_left{display:none!important}</style></head><body data-url=/vgm-documentation/installation/><nav id=sidebar><div id=header-wrapper><div id=header><a id=logo href=https://vmc-project.github.io/vgm-documentation/><img src=/vgm-documentation/images/VGMlogo6_white.png width=80%></a></div><div class=searchbox><label for=search-by><i class="fas fa-search"></i></label><input data-search-input id=search-by type=search placeholder=Search...>
-<span data-search-clear><i class="fas fa-times"></i></span></div><script type=text/javascript src=/vgm-documentation/js/lunr.min.js?1613745211></script><script type=text/javascript src=/vgm-documentation/js/auto-complete.js?1613745211></script><script type=text/javascript>var baseurl="https:\/\/vmc-project.github.io\/vgm-documentation\/";</script><script type=text/javascript src=/vgm-documentation/js/search.js?1613745211></script></div><div class=highlightable><ul class=topics><li data-nav-id=/vgm-documentation/download/ title=Download class=dd-item><a href=/vgm-documentation/download/>Download</a></li><li data-nav-id=/vgm-documentation/installation/ title=Installation class="dd-item
+<!doctype html><html lang=en class="js csstransforms3d">
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=generator content="Hugo 0.92.0">
+<meta name=description content>
+<link rel=icon href=/vgm-documentation/images/favicon.png type=image/png>
+<title>Installation :: VGM</title>
+<link href=/vgm-documentation/css/nucleus.css?1643283375 rel=stylesheet>
+<link href=/vgm-documentation/css/fontawesome-all.min.css?1643283375 rel=stylesheet>
+<link href=/vgm-documentation/css/hybrid.css?1643283375 rel=stylesheet>
+<link href=/vgm-documentation/css/featherlight.min.css?1643283375 rel=stylesheet>
+<link href=/vgm-documentation/css/perfect-scrollbar.min.css?1643283375 rel=stylesheet>
+<link href=/vgm-documentation/css/auto-complete.css?1643283375 rel=stylesheet>
+<link href=/vgm-documentation/css/atom-one-dark-reasonable.css?1643283375 rel=stylesheet>
+<link href=/vgm-documentation/css/theme.css?1643283375 rel=stylesheet>
+<link href=/vgm-documentation/css/hugo-theme.css?1643283375 rel=stylesheet>
+<link href=/vgm-documentation/css/theme-vmc.css?1643283375 rel=stylesheet>
+<script src=/vgm-documentation/js/jquery-3.3.1.min.js?1643283375></script>
+<style>:root #header+#content>#left>#rlblock_left{display:none!important}</style>
+</head>
+<body data-url=/vgm-documentation/installation/>
+<nav id=sidebar>
+<div id=header-wrapper>
+<div id=header>
+<a id=logo href=https://vmc-project.github.io/vgm-documentation/>
+<img src=/vgm-documentation/images/VGMlogo6_white.png width=80%>
+</a>
+</div>
+<div class=searchbox>
+<label for=search-by><i class="fas fa-search"></i></label>
+<input data-search-input id=search-by type=search placeholder=Search...>
+<span data-search-clear><i class="fas fa-times"></i></span>
+</div>
+<script type=text/javascript src=/vgm-documentation/js/lunr.min.js?1643283375></script>
+<script type=text/javascript src=/vgm-documentation/js/auto-complete.js?1643283375></script>
+<script type=text/javascript>var baseurl="https://vmc-project.github.io/vgm-documentation/"</script>
+<script type=text/javascript src=/vgm-documentation/js/search.js?1643283375></script>
+</div>
+<div class=highlightable>
+<ul class=topics>
+<li data-nav-id=/vgm-documentation/download/ title=Download class=dd-item>
+<a href=/vgm-documentation/download/>
+Download
+</a>
+</li>
+<li data-nav-id=/vgm-documentation/installation/ title=Installation class="dd-item
 parent
-active"><a href=/vgm-documentation/installation/>Installation</a><ul><li data-nav-id=/vgm-documentation/installation/vgm_test/ title=vgm_test class=dd-item><a href=/vgm-documentation/installation/vgm_test/>vgm_test</a></li></ul></li><li data-nav-id=/vgm-documentation/user-guide/ title="User Guide" class=dd-item><a href=/vgm-documentation/user-guide/>User Guide</a><ul><li data-nav-id=/vgm-documentation/user-guide/geometry-conversions/ title="Geometry Conversions" class=dd-item><a href=/vgm-documentation/user-guide/geometry-conversions/>Geometry Conversions</a></li><li data-nav-id=/vgm-documentation/user-guide/geometry-construction/ title="Geometry Construction" class=dd-item><a href=/vgm-documentation/user-guide/geometry-construction/>Geometry Construction</a></li><li data-nav-id=/vgm-documentation/user-guide/options/ title=Options class=dd-item><a href=/vgm-documentation/user-guide/options/>Options</a></li><li data-nav-id=/vgm-documentation/user-guide/xml/ title=XML class=dd-item><a href=/vgm-documentation/user-guide/xml/>XML</a></li></ul></li><li data-nav-id=/vgm-documentation/reference/ title=Reference class=dd-item><a href=/vgm-documentation/reference/>Reference</a></li><li data-nav-id=/vgm-documentation/examples/ title=Examples class=dd-item><a href=/vgm-documentation/examples/>Examples</a></li><li data-nav-id=/vgm-documentation/support/ title=Support class=dd-item><a href=/vgm-documentation/support/>Support</a></li><li data-nav-id=/vgm-documentation/publications/ title=Publications class=dd-item><a href=/vgm-documentation/publications/>Publications</a></li></ul><section id=shortcuts><h3>More</h3><ul><li><a class=padding href=https://github.com/vmc-project/vgm><i class="fab fa-github"></i>vgm project on Github</a></li></ul></section><section id=footer><p>Built from <a href=https://getgrav.org>Grav</a> and <a href=https://gohugo.io/>Hugo</a></p></section></div></nav><section id=body><div id=overlay></div><div class="padding highlightable"><div><div id=top-bar><div id=breadcrumbs itemscope itemtype=http://data-vocabulary.org/Breadcrumb><span id=sidebar-toggle-span><a href=# id=sidebar-toggle data-sidebar-toggle><i class="fas fa-bars"></i></a></span><span id=toc-menu><i class="fas fa-list-alt"></i></span><span class=links><a href=/vgm-documentation/>Home</a> > Installation</span></div><div class=progress><div class=wrapper><nav id=TableOfContents><ul><li><ul><li><a href=#configuration>Configuration</a></li><li><a href=#compilation>Compilation</a></li><li><a href=#installation>Installation</a></li><li><a href=#test>Test</a></li></ul></li></ul></nav></div></div></div></div><div id=head-tags></div><div id=body-inner><h1>Installation</h1><h3 id=configuration>Configuration</h3><p>The CMake build system will build and install VGM like a typical CMake&rsquo;ed
-package.</p><p>First we will assume that the VGM source has been downloaded in a directory
-<code>/my_path</code>, so that the VGM directory packages sits in a subdirectory</p><pre><code> /my_path/vgm/packages
-</code></pre><p>We refer to <code>/my_path/vgm</code> directory as the source directory. The next step is to
+active">
+<a href=/vgm-documentation/installation/>
+Installation
+</a>
+<ul>
+<li data-nav-id=/vgm-documentation/installation/vgm_test/ title=vgm_test class=dd-item>
+<a href=/vgm-documentation/installation/vgm_test/>
+vgm_test
+</a>
+</li>
+</ul>
+</li>
+<li data-nav-id=/vgm-documentation/user-guide/ title="User Guide" class=dd-item>
+<a href=/vgm-documentation/user-guide/>
+User Guide
+</a>
+<ul>
+<li data-nav-id=/vgm-documentation/user-guide/geometry-conversions/ title="Geometry Conversions" class=dd-item>
+<a href=/vgm-documentation/user-guide/geometry-conversions/>
+Geometry Conversions
+</a>
+</li>
+<li data-nav-id=/vgm-documentation/user-guide/geometry-construction/ title="Geometry Construction" class=dd-item>
+<a href=/vgm-documentation/user-guide/geometry-construction/>
+Geometry Construction
+</a>
+</li>
+<li data-nav-id=/vgm-documentation/user-guide/options/ title=Options class=dd-item>
+<a href=/vgm-documentation/user-guide/options/>
+Options
+</a>
+</li>
+<li data-nav-id=/vgm-documentation/user-guide/xml/ title=XML class=dd-item>
+<a href=/vgm-documentation/user-guide/xml/>
+XML
+</a>
+</li>
+</ul>
+</li>
+<li data-nav-id=/vgm-documentation/reference/ title=Reference class=dd-item>
+<a href=/vgm-documentation/reference/>
+Reference
+</a>
+</li>
+<li data-nav-id=/vgm-documentation/examples/ title=Examples class=dd-item>
+<a href=/vgm-documentation/examples/>
+Examples
+</a>
+</li>
+<li data-nav-id=/vgm-documentation/support/ title=Support class=dd-item>
+<a href=/vgm-documentation/support/>
+Support
+</a>
+</li>
+<li data-nav-id=/vgm-documentation/publications/ title=Publications class=dd-item>
+<a href=/vgm-documentation/publications/>
+Publications
+</a>
+</li>
+</ul>
+<section id=shortcuts>
+<h3>More</h3>
+<ul>
+<li>
+<a class=padding href=https://github.com/vmc-project/vgm><i class="fab fa-github"></i> vgm project on Github</a>
+</li>
+</ul>
+</section>
+<section id=footer>
+<p>Built from <a href=https://getgrav.org>Grav</a> and <a href=https://gohugo.io/>Hugo</a></p>
+</section>
+</div>
+</nav>
+<section id=body>
+<div id=overlay></div>
+<div class="padding highlightable">
+<div>
+<div id=top-bar>
+<div id=breadcrumbs itemscope itemtype=http://data-vocabulary.org/Breadcrumb>
+<span id=sidebar-toggle-span>
+<a href=# id=sidebar-toggle data-sidebar-toggle>
+<i class="fas fa-bars"></i>
+</a>
+</span>
+<span id=toc-menu><i class="fas fa-list-alt"></i></span>
+<span class=links>
+<a href=/vgm-documentation/>Home</a> > Installation
+</span>
+</div>
+<div class=progress>
+<div class=wrapper>
+<nav id=TableOfContents>
+<ul>
+<li>
+<ul>
+<li><a href=#configuration>Configuration</a></li>
+<li><a href=#compilation>Compilation</a></li>
+<li><a href=#installation>Installation</a></li>
+<li><a href=#test>Test</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</div>
+<div id=head-tags>
+</div>
+<div id=body-inner>
+<h1>
+Installation
+</h1>
+<h3 id=configuration>Configuration</h3>
+<p>The CMake build system will build and install VGM like a typical CMake&rsquo;ed
+package.</p>
+<p>First we will assume that the VGM source has been downloaded in a directory
+<code>/my_path</code>, so that the VGM directory packages sits in a subdirectory</p>
+<pre><code> /my_path/vgm/packages
+</code></pre>
+<p>We refer to <code>/my_path/vgm</code> directory as the source directory. The next step is to
 create a directory in which to configure and run the build and store the
 build products. This directory should not be the same as, or inside,
 the source directory. In this guide, we create this build directory
-alongside our source directory:</p><pre><code> cd /my_path
+alongside our source directory:</p>
+<pre><code> cd /my_path
  mkdir vgm_build
  ls
  vgm vgm_build
-</code></pre><p>To configure the build, change into the build directory and run CMake:</p><pre><code> cd /my_path/vgm_build
+</code></pre>
+<p>To configure the build, change into the build directory and run CMake:</p>
+<pre><code> cd /my_path/vgm_build
  cmake -DCMAKE_INSTALL_PREFIX=/my_path/vgm_install /my_path/vgm
-</code></pre><p>Here, the CMake Variable <code>CMAKE_INSTALL_PREFIX</code> is used to set the install
+</code></pre>
+<p>Here, the CMake Variable <code>CMAKE_INSTALL_PREFIX</code> is used to set the install
 directory, the directory under which the VGM libraries and headers will be
 installed. It must be an absolute path. The second argument to CMake is the
 path to the source directory. In this example, we have used the absolute path
 to the source directory, but you can also use the relative path from your
-build directory to your source directory.</p><h4 id=configuration-options>Configuration Options</h4><p>Additional arguments may be passed to CMake to (in)activate optional
+build directory to your source directory.</p>
+<h4 id=configuration-options>Configuration Options</h4>
+<p>Additional arguments may be passed to CMake to (in)activate optional
 components of VGM, or tune the build and install parameters. See
 <code>vgm/CMakeList.txt</code> for details of these options. If you run CMake and decide
 afterwards you want to activate additional options, simply rerun CMake
-passing it those options.</p><p>On executing this CMake command, it will run, configuring the build and
-generating Unix Makefiles to perform the actual build.</p><p>Overview of available options and their default values:</p><pre><code> WITH_GEANT4       &quot;Build Geant4 dependent subpackage (Geant4GM)&quot; ON
+passing it those options.</p>
+<p>On executing this CMake command, it will run, configuring the build and
+generating Unix Makefiles to perform the actual build.</p>
+<p>Overview of available options and their default values:</p>
+<pre><code> WITH_GEANT4       &quot;Build Geant4 dependent subpackage (Geant4GM)&quot; ON
  WITH_ROOT         &quot;Build Root dependent subpackage(RootGM)&quot;      ON
  WITH_EXAMPLES     &quot;Build examples&quot;                               ON
  WITH_TEST         &quot;Build test&quot;                                   OFF
  WITH_G4ROOT       &quot;Build test with G4Root&quot;                       OFF
  INSTALL_EXAMPLES  &quot;Install examples&quot;                             ON
-</code></pre><h3 id=compilation>Compilation</h3><p>After the configuration has run, to run the build, simply execute <code>make</code> in
-the build directory:</p><pre><code> make -jN
-</code></pre><p>where N is the number of parallel jobs you require (e.g. if your machine has
-a dual core processor, you could set N to 2).</p><p>The build will now run, and will output information on the progress of the
+</code></pre>
+<h3 id=compilation>Compilation</h3>
+<p>After the configuration has run, to run the build, simply execute <code>make</code> in
+the build directory:</p>
+<pre><code> make -jN
+</code></pre>
+<p>where N is the number of parallel jobs you require (e.g. if your machine has
+a dual core processor, you could set N to 2).</p>
+<p>The build will now run, and will output information on the progress of the
 build and current operations. If you need more output to help resolve issues
-or simply for information, run <code>make</code> as</p><pre><code> make -jN VERBOSE=1
-</code></pre><h3 id=installation>Installation</h3><p>Once the build has completed, you can install VGM to the directory you
-specified earlier in <code>CMAKE_INSTALL_PREFIX</code> by running</p><pre><code> make install
-</code></pre><p>in the build directory. The libraries and headers are installed under your
-chosen install prefix in a standard Unix-style hierarchy of directories</p><h3 id=test>Test</h3><p>When the <code>WITH_TEST</code> cmake option is activated, the <code>vgm_test</code> program is automatically
+or simply for information, run <code>make</code> as</p>
+<pre><code> make -jN VERBOSE=1
+</code></pre>
+<h3 id=installation>Installation</h3>
+<p>Once the build has completed, you can install VGM to the directory you
+specified earlier in <code>CMAKE_INSTALL_PREFIX</code> by running</p>
+<pre><code> make install
+</code></pre>
+<p>in the build directory. The libraries and headers are installed under your
+chosen install prefix in a standard Unix-style hierarchy of directories</p>
+<h3 id=test>Test</h3>
+<p>When the <code>WITH_TEST</code> cmake option is activated, the <code>vgm_test</code> program is automatically
 built in the build directory, in <code>/my_path/vgm_build/test</code> and installed in
-<code>/my_path/vgm_install/bin</code>.</p><p>It can be run for example in this way:</p><pre><code>vgm_test VGM Geant4 Root noXML Solids
-</code></pre><p>See <a href=vgm_test>vgm_test</a> for all available options.</p><p>All test configurations can be run via the <code>test_suite.sh</code> script:</p><pre><code>./test_suite.sh
-</code></pre><p>which internally runs three test suites:</p><pre><code>./test1_suite.sh
+<code>/my_path/vgm_install/bin</code>.</p>
+<p>It can be run for example in this way:</p>
+<pre><code>vgm_test VGM Geant4 Root noXML Solids
+</code></pre>
+<p>See <a href=vgm_test>vgm_test</a> for all available options.</p>
+<p>All test configurations can be run via the <code>test_suite.sh</code> script:</p>
+<pre><code>./test_suite.sh
+</code></pre>
+<p>which internally runs three test suites:</p>
+<pre><code>./test1_suite.sh
 ./test2_suite.sh
 ./test3_suite.sh
-</code></pre><p>The test output, stored in the <code>log</code> directory, can be then compared
-with the reference output in the <code>log_ref</code> directory.</p><p>Optionally, the test can be built with the <strong>G4Root</strong> package, see:
+</code></pre>
+<p>The test output, stored in the <code>log</code> directory, can be then compared
+with the reference output in the <code>log_ref</code> directory.</p>
+<p>Optionally, the test can be built with the <strong>G4Root</strong> package, see:
 <a href=https://vmc-project.github.io/user-guide/g4root/>https://vmc-project.github.io/user-guide/g4root/</a>
-when the <code>WITH_G4ROOT</code> cmake option is activated.</p><p>Note that even though also Geant4 VMC can be build with VGM, there is no
+when the <code>WITH_G4ROOT</code> cmake option is activated.</p>
+<p>Note that even though also Geant4 VMC can be build with VGM, there is no
 circular dependence between these packages, as G4Root is lower level package
-which does not depend on the Geant4 VMC library.</p><p>To build both VGM with G4Root and Geant4 VMC with VGM, you can proceed
-in this way:</p><ol><li>install VGM without test</li><li>install Geant4 VMC with VGM</li><li>build and install VGM test against G4Root installed with Geant4 VMC</li></ol><p>If you are not interested in using Geant4 VMC then you can proceed
-in this way:</p><ol><li>Download Geant4 VMC and install only G4Root</li><li>Install VGM with test against G4Root installed</li></ol><div class="notices note"><p><strong>Aknowledgement</strong><br>The CMake build for Virtual Geometry Model is a result of a merge
+which does not depend on the Geant4 VMC library.</p>
+<p>To build both VGM with G4Root and Geant4 VMC with VGM, you can proceed
+in this way:</p>
+<ol>
+<li>install VGM without test</li>
+<li>install Geant4 VMC with VGM</li>
+<li>build and install VGM test against G4Root installed with Geant4 VMC</li>
+</ol>
+<p>If you are not interested in using Geant4 VMC then you can proceed
+in this way:</p>
+<ol>
+<li>Download Geant4 VMC and install only G4Root</li>
+<li>Install VGM with test against G4Root installed</li>
+</ol>
+<div class="notices note"><p><strong>Aknowledgement</strong><br>
+The CMake build for Virtual Geometry Model is a result of a merge
 of the CMake configuration files kindly provided
-by Florian Uhlig, GSI and Pere Mato, CERN.</p></div><ul class="children children-li"><li><a href=/vgm-documentation/installation/vgm_test/>vgm_test</a></li></ul><footer class=footline></footer></div></div><div id=navigation><a class="nav nav-prev" href=/vgm-documentation/download/ title=Download><i class="fa fa-chevron-left"></i></a><a class="nav nav-next" href=/vgm-documentation/installation/vgm_test/ title=vgm_test style=margin-right:0><i class="fa fa-chevron-right"></i></a></div></section><div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px><div style=border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px></div></div><script src=/vgm-documentation/js/clipboard.min.js?1613745211></script><script src=/vgm-documentation/js/perfect-scrollbar.min.js?1613745211></script><script src=/vgm-documentation/js/perfect-scrollbar.jquery.min.js?1613745211></script><script src=/vgm-documentation/js/jquery.sticky.js?1613745211></script><script src=/vgm-documentation/js/featherlight.min.js?1613745211></script><script src=/vgm-documentation/js/highlight.pack.js?1613745211></script><script>hljs.initHighlightingOnLoad();</script><script src=/vgm-documentation/js/modernizr.custom-3.6.0.js?1613745211></script><script src=/vgm-documentation/js/learn.js?1613745211></script><script src=/vgm-documentation/js/hugo-learn.js?1613745211></script><link href=/vgm-documentation/mermaid/mermaid.css?1613745211 rel=stylesheet><script src=/vgm-documentation/mermaid/mermaid.js?1613745211></script><script>mermaid.initialize({startOnLoad:true});</script></body></html>
+by Florian Uhlig, GSI and Pere Mato, CERN.</p>
+</div>
+<ul class="children children-li">
+<li>
+<a href=/vgm-documentation/installation/vgm_test/>vgm_test</a>
+</li>
+</ul>
+<footer class=footline>
+</footer>
+</div>
+</div>
+<div id=navigation>
+<a class="nav nav-prev" href=/vgm-documentation/download/ title=Download> <i class="fa fa-chevron-left"></i></a>
+<a class="nav nav-next" href=/vgm-documentation/installation/vgm_test/ title=vgm_test style=margin-right:0><i class="fa fa-chevron-right"></i></a>
+</div>
+</section>
+<div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px>
+<div style=border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px></div>
+</div>
+<script src=/vgm-documentation/js/clipboard.min.js?1643283375></script>
+<script src=/vgm-documentation/js/perfect-scrollbar.min.js?1643283375></script>
+<script src=/vgm-documentation/js/perfect-scrollbar.jquery.min.js?1643283375></script>
+<script src=/vgm-documentation/js/jquery.sticky.js?1643283375></script>
+<script src=/vgm-documentation/js/featherlight.min.js?1643283375></script>
+<script src=/vgm-documentation/js/highlight.pack.js?1643283375></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script src=/vgm-documentation/js/modernizr.custom-3.6.0.js?1643283375></script>
+<script src=/vgm-documentation/js/learn.js?1643283375></script>
+<script src=/vgm-documentation/js/hugo-learn.js?1643283375></script>
+<link href=/vgm-documentation/mermaid/mermaid.css?1643283375 rel=stylesheet>
+<script src=/vgm-documentation/mermaid/mermaid.js?1643283375></script>
+<script>mermaid.initialize({startOnLoad:!0})</script>
+</body>
+</html>

@@ -14,9 +14,9 @@ VGM was implemented in the context of [Geant4 VMC](https://vmc-project.github.io
 
 {{% notice info %}}
 **Reference paper**\
-[I. Hrivnacova et al 2008 J. Phys.: Conf. Ser. 119 042016](http://iopscience.iop.org/article/10.1088/1742-6596/119/4/042016/pdf)
+[ I. Hrivnacova 2020 EPJ Web of Conferences 245, 02014](https://www.epj-conferences.org/articles/epjconf/pdf/2020/21/epjconf_chep2020_02014.pdf)
 {{% /notice %}}
 
 <i class="far fa-envelope"></i> Contact: <a href="mailto: ivana.hrivnacova@ijclab.in2p3.fr"> ivana.hrivnacova@ijclab.in2p3.fr</a>
 
-*Last update: 19/02/2021*
+*Last update: 27/01/2022*

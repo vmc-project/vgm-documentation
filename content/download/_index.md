@@ -15,16 +15,16 @@ Development version:
 git clone http://github.com/vmc-project/vgm.git
 ```
 
-*Tested with Root 6.22/06, Geant4 10.7 (with embedded CLHEP 2.4.4.0)*
+*Tested with Root 6.24/06, Geant4 11.0 (with embedded CLHEP 2.4.5.1)*
 
 
-The last tagged version (4.9):
+The last tagged version (5.0):
 
 ```bash
 cd vgm
-git checkout v4-9
+git checkout v5-0
 ```
 
-*Tested with Root 6.22/06, Geant4 10.7 (with embedded CLHEP 2.4.4.0)*
+*Tested with 6.24/06, Geant4 11.0 (with embedded CLHEP 2.4.5.1)*
 
 The list of new developments, bug fixes and the required versions of ROOT and Geant4 for each version can be found in the [VGMhistory.txt](https://github.com/vmc-project/vgm/blob/master/doc/VGMhistory.txt) file.

@@ -6,11 +6,11 @@ weight = 7
 #pre = "<b>5. </b>"
 +++
 
-Please refer to the papers below when publishing results base on simulations with VMC:
+Please refer to the paper below when publishing results using VGM:
 
 {{% notice info %}}
 **Reference paper**\
-[I. Hrivnacova et al 2008 J. Phys.: Conf. Ser. 119 042016](http://iopscience.iop.org/article/10.1088/1742-6596/119/4/042016/pdf)
+[ I. Hrivnacova 2020 EPJ Web of Conferences 245, 02014](https://www.epj-conferences.org/articles/epjconf/pdf/2020/21/epjconf_chep2020_02014.pdf)
 {{% /notice %}}
 
 All publications listed in time reversed order:

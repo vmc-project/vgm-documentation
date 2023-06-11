@@ -138,5 +138,5 @@ of the CMake configuration files kindly provided
 by Florian Uhlig, GSI and Pere Mato, CERN.
 {{% /notice %}}
 
-{{% children  %}}
+{{% children depth="999" %}}
 

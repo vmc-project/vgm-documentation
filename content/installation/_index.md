@@ -138,4 +138,4 @@ of the CMake configuration files kindly provided
 by Florian Uhlig, GSI and Pere Mato, CERN.
 {{% /notice %}}
 
-{{% children %}}
+* [vgm_test](vgm_test)

@@ -5,6 +5,7 @@ title = "VGM"
 
 # Change the default theme to be use when building the site with Hugo
 theme = [ "vgm-theme", "hugo-theme-learn" ]
+ignoreLogs = ['warning-goldmark-raw-html']
 
 # For search functionality
 [outputs]
